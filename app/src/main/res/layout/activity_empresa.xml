@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.programacaobrasil.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ec7148"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginBottom="24dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="@string/empresa_detalhes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="330dp"
+        android:layout_height="370dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:background="#eceaec">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView2"
+                android:padding="@dimen/padding_padrao"
+                android:text="Natoque est scelerisque vel? Amet ut et scelerisque natoque sociis, lectus. Aliquam in magnis porttitor. Pulvinar. Ut dis! Sed. Lectus, amet tempor urna, dictumst elit pellentesque in lacus, rhoncus parturient? Magnis tincidunt dis duis! Pellentesque penatibus, mauris lectus rhoncus nec. Scelerisque auctor rhoncus, lorem, elementum nunc habitasse, mattis, tristique pellentesque, tincidunt. Aliquam proin nec, cras urna amet elementum ac lectus, nec et nisi cras, porta parturient! Etiam pellentesque! Adipiscing ridiculus, lectus! Ac, porta ultricies mus! Platea odio, proin et dapibus, lacus quis turpis facilisis, nunc facilisis risus! Magna, adipiscing augue integer in? Porta elementum dolor? Ridiculus ut porttitor, a porta, porttitor dictumst, egestas nisi. Ac, ridiculus cras et ac magna lundium porta vut vel? Enim. Habitasse, turpis nec pellentesque vel.  Ac, ridiculus habitasse, scelerisque! Augue amet scelerisque! Mauris sed porta nec enim dapibus vut ut parturient placerat augue integer? Lundium? Nisi elit pid mus, integer mauris? Magnis facilisis urna a dapibus, est, ridiculus, diam porta, purus aenean? Massa, augue! Facilisis et, scelerisque lundium amet hac sit rhoncus, diam egestas dignissim, dapibus facilisis sed non lectus porttitor tristique et tristique massa nunc et dolor, penatibus, montes porta ultricies nec. Sed nisi vel, adipiscing tincidunt adipiscing nunc. Ultrices augue elit pellentesque? Habitasse! Rhoncus? Cum cras odio pid, ultricies elementum? Aliquet pulvinar in amet purus tempor phasellus? Vel! Placerat purus turpis tincidunt turpis sed amet sagittis ut! Augue adipiscing vel. Porttitor platea! Augue, turpis urna placerat, etiam, magna magna turpis dapibus adipiscing.  Urna lundium pulvinar tincidunt, odio porttitor in, etiam porttitor tristique nascetur, aliquet egestas tempor! Ut nunc eros sociis augue, augue? Hac adipiscing, sed, ut odio rhoncus sit pellentesque odio? Sagittis duis aliquam. Ut. Dignissim dapibus sociis dapibus cursus urna sit? Tincidunt, lundium pid in urna tristique vel, augue dictumst tincidunt turpis lundium nunc penatibus magna. Platea arcu scelerisque rhoncus, nec odio risus proin! Urna lacus porttitor. Aliquam cras phasellus integer et in ut vut phasellus eu odio montes aenean, mattis in lorem. Ac natoque pid enim enim, eu tincidunt, massa risus, et, nascetur magna natoque, magnis nec integer aliquam. Integer platea penatibus duis amet! Vel nunc, adipiscing, aliquet nunc, phasellus. Porttitor? Placerat ut, pellentesque, arcu, elementum arcu turpis elementum." />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
